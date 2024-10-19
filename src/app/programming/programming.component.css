@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.column {
+  margin: 15px;
+  width: 300px; /* عرض العمود */
+  text-align: center; /* محاذاة النص إلى المنتصف */
+}
+
+.column img {
+  max-width: 100%; /* لضمان أن الصور لا تتجاوز عرض العمود */
+  height: auto; /* الحفاظ على نسبة العرض إلى الارتفاع */
+}
+
+a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #007BFF; /* لون الخلفية */
+  color: white; /* لون النص */
+  text-decoration: none; /* إزالة الخط السفلي من الرابط */
+  border-radius: 5px; /* زوايا دائرية */
+}
+
+a:hover {
+  background-color: #0056b3; /* تغيير لون الخلفية عند التحويم */
+}

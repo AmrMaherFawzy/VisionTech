@@ -1,0 +1,64 @@
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f7f7f7;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-color: #007bff;
+    background-color: #fff;
+    outline: none;
+}
+
+textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #999;
+    font-style: italic;
+}
+
+#Send {
+    background-color: #007bff; /* لون الخلفية */
+    color: #fff; /* لون النص */
+    border: none; /* إزالة الحدود */
+    padding: 10px 20px; /* المسافة الداخلية للزر */
+    font-size: 16px; /* حجم الخط */
+    border-radius: 5px; /* زوايا مستديرة */
+    cursor: pointer; /* شكل المؤشر عند التمرير فوق الزر */
+    transition: background-color 0.3s ease; /* تأثير انتقال لون الخلفية */
+}
+
+#Send:hover {
+    background-color: #0056b3; /* لون الخلفية عند التمرير فوق الزر */
+}

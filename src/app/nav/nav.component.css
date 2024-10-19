@@ -1,0 +1,24 @@
+ul {
+    list-style-type: none; /* إزالة النقط من القائمة */
+    margin: 0;
+    padding: 0;
+    background-color: #333; /* خلفية داكنة للقائمة */
+    overflow: hidden; /* لضمان بقاء المحتويات داخل حدود القائمة */
+  }
+  
+  li {
+    float: left; /* جعل العناصر تظهر بشكل أفقي */
+  }
+  
+  li a {
+    display: block;
+    color: white; /* لون النص */
+    text-align: center; /* توسيط النص */
+    padding: 14px 16px; /* مساحة داخلية للعناصر */
+    text-decoration: none; /* إزالة الخط السفلي للرابط */
+  }
+  
+  li a:hover {
+    background-color: #111; /* تغيير لون الخلفية عند تمرير الماوس */
+  }
+  

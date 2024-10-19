@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif; /* استخدام خط مريح */
+  background-color: #f4f4f4; /* لون خلفية خفيف */
+  margin: 0; /* إزالة الهوامش الافتراضية */
+  padding: 0; /* إزالة الحشوات الافتراضية */
+}
+
+.header {
+  background-color: #4CAF50; /* لون خلفية الرأس */
+  color: white; /* لون النص */
+  padding: 20px; /* حشوة داخلية */
+  text-align: center; /* توسيط النص */
+}
+
+h1 {
+  font-size: 2.5em; /* حجم خط العنوان الرئيسي */
+  margin: 10px 0; /* هوامش العنوان */
+}
+
+h2 {
+  font-size: 1.8em; /* حجم خط العنوان الفرعي */
+  margin: 10px 0; /* هوامش العنوان الفرعي */
+}
+
+p {
+  font-size: 1.2em; /* حجم خط الفقرة */
+  margin: 10px 0; /* هوامش الفقرة */
+}
+
+a {
+  display: inline-block; /* لجعل الرابط كزر */
+  background-color: #FF9800; /* لون خلفية الرابط */
+  color: white; /* لون نص الرابط */
+  padding: 10px 20px; /* حشوة داخلية */
+  text-decoration: none; /* إزالة خط التسطير */
+  border-radius: 5px; /* زوايا مدورة */
+  transition: background-color 0.3s; /* تأثير التغيير في الخلفية */
+}
+
+a:hover {
+  background-color: #E68A00; /* لون خلفية الرابط عند التحويم */
+}
